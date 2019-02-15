@@ -133,6 +133,10 @@ h1, h2, h3, h4, h5, h6 {
 .p-2 { padding: 2rem 0 }
 .p-3 { padding: 3rem 0 }
 
+.l-heading {
+  font-size: 3rem;
+}
+
 .list li {
   padding: 0.5rem 0;
   border-bottom: #555 dotted 1px;

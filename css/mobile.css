@@ -1,0 +1,18 @@
+/* Navigation */
+#main-nav .social {
+  display: none;
+}
+
+#main-nav .container {
+  grid-template-columns: 1fr;
+  grid-gap: 1.2rem;
+}
+
+#main-nav ul,
+#main-nav .logo {
+  justify-self: center;
+}
+
+#main-nav ul li a {
+  padding: 0.5rem;
+}

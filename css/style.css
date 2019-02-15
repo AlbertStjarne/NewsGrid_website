@@ -51,3 +51,50 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+/* Navigation */
+#main-nav {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+#main-nav .container {
+  display: grid;
+  grid-template-columns: 6fr 3fr 2fr;
+  padding: 1rem;
+  align-items: center;
+}
+
+#main-nav .logo {
+  width: 180px;
+}
+
+#main-nav ul {
+  justify-self: end;
+  display: flex;
+}
+
+#main-nav ul li a {
+  padding: 0.75rem;
+  font-weight: bold;
+}
+
+#main-nav ul li a.current {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+#main-nav ul li a:hover {
+  background: var(--light-color);
+  color: var(--dark-color);
+}
+
+#main-nav .social {
+  justify-self: center;
+}
+
+#main-nav .social i {
+  color: #777;
+  margin-right: 0.5rem;
+}
